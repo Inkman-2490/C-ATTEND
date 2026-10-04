@@ -1,0 +1,130 @@
+@media (max-width: 640px) {
+    .mobile-page,
+    .mobile-auth {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .mobile-page *,
+    .mobile-auth * {
+        box-sizing: border-box;
+        min-width: 0;
+    }
+
+    .mobile-page > div,
+    .mobile-auth > div {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .mobile-page > div {
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+        padding-top: 0.75rem !important;
+        padding-bottom: 0.75rem !important;
+    }
+
+    .mobile-page header {
+        border-radius: 1.25rem !important;
+    }
+
+    .mobile-page header > div {
+        gap: 1rem !important;
+        padding: 1rem !important;
+    }
+
+    .mobile-page header > div > .flex.flex-wrap {
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .mobile-page header > div > .flex.flex-wrap > a {
+        flex: 1 1 calc(50% - 0.25rem);
+        min-height: 2.75rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .mobile-page header .admin-nav {
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .mobile-page header .admin-nav-account {
+        width: 100%;
+        margin-left: 0 !important;
+    }
+
+    .mobile-page header .admin-nav-account a {
+        width: 100%;
+        min-height: 2.75rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .mobile-page main,
+    .mobile-page section,
+    .mobile-page aside > div {
+        min-width: 0;
+    }
+
+    .mobile-page section {
+        border-radius: 1.25rem;
+    }
+
+    .mobile-page input,
+    .mobile-page select,
+    .mobile-page textarea,
+    .mobile-page button {
+        min-height: 2.75rem;
+    }
+
+    .mobile-page img,
+    .mobile-auth img,
+    .mobile-page svg,
+    .mobile-auth svg {
+        max-width: 100%;
+    }
+
+    .mobile-page h1,
+    .mobile-page h2,
+    .mobile-page h3,
+    .mobile-page p,
+    .mobile-auth h1,
+    .mobile-auth h2,
+    .mobile-auth h3,
+    .mobile-auth p,
+    .mobile-page a,
+    .mobile-auth a {
+        overflow-wrap: anywhere;
+    }
+
+    .mobile-page input,
+    .mobile-page select,
+    .mobile-page textarea,
+    .mobile-page button,
+    .mobile-auth input,
+    .mobile-auth select,
+    .mobile-auth textarea,
+    .mobile-auth button {
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .mobile-page table,
+    .mobile-auth table {
+        max-width: none;
+    }
+
+    .mobile-page .overflow-x-auto,
+    .mobile-auth .overflow-x-auto {
+        max-width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}
